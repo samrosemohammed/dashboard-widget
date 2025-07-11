@@ -1,5 +1,4 @@
-import Image from "next/image";
-
-export default function Home() {
-  return <div>hello fromt the app</div>;
-}
+const Page = () => {
+  return <div>Hello</div>;
+};
+export default Page;
