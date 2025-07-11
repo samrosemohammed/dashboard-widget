@@ -12,8 +12,6 @@ Dashboard application built with React and Next.js that allows users to create, 
 - **Modern UI**: Clean, professional interface built with Tailwind CSS
 
 ## Tech Stack
-
-### Frontend Framework
 - **Next.js** - React framework for production
 - **TypeScript** - Type-safe JavaScript development
 - **Shadcn** - UI components
