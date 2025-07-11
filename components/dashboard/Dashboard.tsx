@@ -20,6 +20,7 @@ import { useResponsive } from "@/hooks/use-responsive";
 
 export function Dashboard() {
   const { state, reorderWidgets, selectWidget, setEditing } = useDashboard();
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { isMobile, getGridColumns, getWidgetSpan } = useResponsive();
   const [showAddWidget, setShowAddWidget] = useState(false);
 

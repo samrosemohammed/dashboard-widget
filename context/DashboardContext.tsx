@@ -28,7 +28,7 @@ type DashboardAction =
       type: "REORDER_WIDGETS";
       payload: { sourceIndex: number; destinationIndex: number };
     }
-  | { type: "UPDATE_LAYOUT"; payload: { layout: DashboardLayout } }
+  | { type: "UPDATE_LAYOUT"; payload: { layout: Partial<DashboardLayout> } }
   | { type: "SELECT_WIDGET"; payload: { id: string | null } }
   | { type: "SET_EDITING"; payload: { isEditing: boolean } }
   | { type: "LOAD_DASHBOARD"; payload: { state: Partial<DashboardState> } };

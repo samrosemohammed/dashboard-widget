@@ -28,6 +28,7 @@ export function WidgetToolbar({ widgetId }: WidgetToolbarProps) {
     updateWidget(widgetId, { title });
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleConfigChange = (key: string, value: any) => {
     updateWidget(widgetId, {
       config: { ...widget.config, [key]: value },
